@@ -16,3 +16,5 @@ https://twitter.com/itilefnidagsins
 https://twitter.com/mer_finnst
 
 https://twitter.com/tolvuordasafn
+
+https://twitter.com/AuroraIceland

@@ -1,0 +1,6 @@
+BeautifulSoup==3.2.1
+cloud==2.7.4
+distribute==0.6.35
+requests==1.1.0
+tweepy==2.0
+wsgiref==0.1.2
