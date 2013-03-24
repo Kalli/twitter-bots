@@ -6,6 +6,7 @@ import datetime
 import tweepy
 import credentials
 
+
 def tweetauroraforcast():
     url = "http://en.vedur.is/weather/forecasts/aurora/"
     r = requests.get(url)
@@ -29,7 +30,6 @@ def tweetauroraforcast():
         if len(textforecast[0]) > 35:
             textforecast[0] = textforecast[0][0:40] + "..."
         tweettext = "Aurora activity in Iceland: %s/9\n\"%s\"\n%s\n%s" % (index[0], textforecast[0], url, timestring)
-
     if len(tweettext) > 0:
         auth = tweepy.OAuthHandler(credentials.AURORA_CONSUMER_KEY, credentials.AURORA_CONSUMER_SECRET)
         auth.set_access_token(credentials.AURORA_ACCESS_TOKEN, credentials.AURORA_ACCESS_SECRET)
@@ -40,4 +40,4 @@ def tweetauroraforcast():
 
 #tweetauroraforcast()
 import cloud
-cloud.cron.register(tweetauroraforcast, 'auroraforcast_tweetauroraforcast', '1 */8 * * *', _type='s1', _max_runtime=10)
+cloud.cron.register(tweetauroraforcast, 'auroraforcast_tweetauroraforcast', '0 1,7,19,22 * * *', _type='s1', _max_runtime=10)
