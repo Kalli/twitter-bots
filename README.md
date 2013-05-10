@@ -1,20 +1,9 @@
 twitter-bots
 ============
 
-Various twitter bots related to Iceland
+#[AuroraIceland](https://twitter.com/AuroraIceland)
 
-https://twitter.com/dreymir
+A Twitter-bot, tweeting the [Icelandic Met Office aurora forecast](http://en.vedur.is/weather/forecasts/aurora/) four times a day.
 
-https://twitter.com/itilefnidagsins
 
-https://twitter.com/landspitali
-
-https://twitter.com/merfinnst
-
-https://twitter.com/itilefnidagsins
-
-https://twitter.com/mer_finnst
-
-https://twitter.com/tolvuordasafn
-
-https://twitter.com/AuroraIceland
+Forked from [pallih/twitter-bots](https://github.com/pallih/twitter-bots)
