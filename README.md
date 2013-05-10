@@ -1,9 +1,7 @@
-twitter-bots
-============
+#Twitter bots
 
-#[AuroraIceland](https://twitter.com/AuroraIceland)
+---
 
-A Twitter-bot, tweeting the [Icelandic Met Office aurora forecast](http://en.vedur.is/weather/forecasts/aurora/) four times a day.
+* ###[@AuroraIceland](https://twitter.com/AuroraIceland)
 
-
-Forked from [pallih/twitter-bots](https://github.com/pallih/twitter-bots)
+    A Twitter-bot, tweeting the [Icelandic Met Office aurora forecast](http://en.vedur.is/weather/forecasts/aurora/) four times a day.
