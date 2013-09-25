@@ -34,5 +34,6 @@ nosetests.xml
 .project
 .pydevproject
 
-#LoginCredentials
+#LoginCredentials and metadata
 credentials.py
+metadata.py
