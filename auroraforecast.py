@@ -32,7 +32,9 @@ def tweetauroraforecast():
     index = get_aurora_activity_rating()
     tweettext = ""
     if len(index) == 1:
-        tweettext = get_aurora_description(metadata.descriptions, index[0]) + " http://en.vedur.is/weather/forecasts/aurora/"
+        now = datetime.datetime.now()
+        timestring = now.strftime("%y%m%d-%H")
+        tweettext = get_aurora_description(metadata.descriptions, index[0]) + " http://en.vedur.is/weather/forecasts/aurora/?t="+timestring
     if len(tweettext) > 0:
         auth = tweepy.OAuthHandler(metadata.AURORA_CONSUMER_KEY, metadata.AURORA_CONSUMER_SECRET)
         auth.set_access_token(metadata.AURORA_ACCESS_TOKEN, metadata.AURORA_ACCESS_SECRET)
@@ -41,4 +43,4 @@ def tweetauroraforecast():
 
 tweetauroraforecast()
 import cloud
-cloud.cron.register(tweetauroraforecast, 'auroraforecast_tweetauroraforecast', '0 7,19,22 * * *', _type='s1', _max_runtime=10)
+cloud.cron.register(tweetauroraforecast, 'itaurorahunt_tweetauroraforecast', '0 7,19,22 * * *', _type='s1', _max_runtime=10)
