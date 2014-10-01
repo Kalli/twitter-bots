@@ -6,7 +6,7 @@ import os
 import traceback
 
 '''
-the @thorskastridin cod tweet bod spreads awareness of the cod wars (https://en.wikipedia.org/wiki/Cod_Wars) 
+the @thorskastridin cod tweet bot spreads awareness about the cod wars (https://en.wikipedia.org/wiki/Cod_Wars) 
 by asking people tweeting about the cold war and cod 4 whether they meant to tweet about the cod wars
 '''
 tweets = ["{0}? Are you sure you didn't mean the cod wars? {1}", 
