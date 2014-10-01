@@ -36,3 +36,4 @@ nosetests.xml
 
 #LoginCredentials
 credentials.py
+setup_env.sh
