@@ -11,3 +11,5 @@ Tweeting Twitter bots of mine.
 * ###[@thorskastridin](https://twitter.com/thorskastridin)
 
     A lonely cod bot in the middle of the Atlantic Ocean, spreading awareness about the [cod wars](https://en.wikipedia.org/wiki/Cod_Wars) one tweet at a time.
+    
+    The cod bot has been disabled due to numerous complaints from foul mouthed COD4 players!
