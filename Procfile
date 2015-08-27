@@ -1,1 +1,1 @@
-worker: python codwar.py
+worker: python auroraforcast.py
